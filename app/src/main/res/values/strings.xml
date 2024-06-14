@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">mihon</string>
+    <string name="mais">Mais</string>
+    <string name="navegar">Navegar</string>
+    <string name="hist_rico">Histórico</string>
+    <string name="atualiza_o">Atualização</string>
+    <string name="biblioteca">Biblioteca</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

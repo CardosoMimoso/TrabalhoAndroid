@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/biblioteca">
+
+    <fragment
+        android:id="@+id/biblioteca"
+        android:name="com.example.mihon.BibliotecaFragment"
+        android:label="fragment_biblioteca"
+        tools:layout="@layout/fragment_biblioteca" />
+    <fragment
+        android:id="@+id/atualizacao"
+        android:name="com.example.mihon.AtualizacoesFragment"
+        android:label="fragment_atualizacoes"
+        tools:layout="@layout/fragment_atualizacoes" />
+    <fragment
+        android:id="@+id/historico"
+        android:name="com.example.mihon.HistoricoFragment"
+        android:label="fragment_historico"
+        tools:layout="@layout/fragment_historico" />
+    <fragment
+        android:id="@+id/navegar"
+        android:name="com.example.mihon.NavegarFragment"
+        android:label="fragment_navegar"
+        tools:layout="@layout/fragment_navegar" />
+    <fragment
+        android:id="@+id/mais"
+        android:name="com.example.mihon.MaisFragment"
+        android:label="fragment_mais"
+        tools:layout="@layout/fragment_mais" />
+    <fragment
+        android:id="@+id/card1Fragment"
+        android:name="com.example.mihon.Card1Fragment"
+        android:label="fragment_card1"
+        tools:layout="@layout/fragment_card1" />
+
+</navigation>

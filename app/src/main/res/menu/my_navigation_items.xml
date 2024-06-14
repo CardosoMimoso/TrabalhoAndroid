@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/biblioteca"
+        android:title="Biblioteca"
+        android:icon="@drawable/biblioteca"
+        app:iconTint="@color/white" />
+    <item
+        android:id="@+id/atualizacao"
+        android:title="Atualização"
+        android:icon="@drawable/atualizacao"
+        app:iconTint="@color/white" />
+    <item
+        android:id="@+id/historico"
+        android:title="Histórico"
+        android:icon="@drawable/historico"
+        app:iconTint="@color/white" />
+    <item
+        android:id="@+id/explorar"
+        android:title="Navegar"
+        android:icon="@drawable/navegar"
+        app:iconTint="@color/white" />
+    <item
+        android:id="@+id/mais"
+        android:title="Mais"
+        android:icon="@drawable/mais"
+        app:iconTint="@color/white" />
+</menu>
